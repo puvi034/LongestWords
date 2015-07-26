@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Trie Structure</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <script src="lib/angular.min.js"></script>
+
+    <script src="src/app.js"></script>
+    <script src="src/services/readFile.js"></script>
+    <script src="src/services/trie.js"></script>
+    <script src="src/controllers/trieController.js"></script>
+
+</head>
+<body ng-app="trieStructure">
+<div class="container" ng-controller="trieController">
+    <h3>Longest Compound Word: <span style="font-style: italic; color: blue">{{longestCompoundWord}}</span></h3>
+
+    <h3>Second Longest Compound Word: <span style="font-style: italic; color: blue">{{secondLongestCompoundWord}}</span></h3>
+
+    <h3>Number of Compund Words: <span style="font-style: italic; color: blue">{{numberOfCompundWords}}</span> </h3>
+</div>
+</body>
+</html>
