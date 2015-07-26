@@ -1,3 +1,5 @@
+This project uses Angular JS framework and Trie Data Structure in finding Longest Words Made up Others.
+
 /* Steps to execute the program */
 
 1. Open index.html file directly in firefox/Safari browser.
